@@ -1,17 +1,27 @@
 body{
-    width: 500px;
+    width: 400px;
     text-align: center;
     
 }
 
-ul , h4{
+ul {
+    border: 3px solid gray;
+    padding: 50px;
+}
+h4{
     border: 3px solid gray;
 }
 
+.img{
+    width: 300px;
+    padding-bottom: 30px;
+}
 li{
     list-style-type: none;
 }
-
+.inputbox{
+    width: 300px;
+}
 .icon{
     width: 30px;
     
