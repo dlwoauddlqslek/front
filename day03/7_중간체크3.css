@@ -1,0 +1,41 @@
+/* 기본 여백 제거 */
+*{ padding: 0px; margin: 0px;}
+
+/* 1. 배경색 */
+body{
+    background-color: pink; /*배경색*/
+    text-align: center;       /*컨텐츠 가운데정렬*/
+}
+
+/* 2. 제목 */
+h1{
+    font-size: 20px;            /* 글꼴 크기 */
+    border: 3px solid white;  
+    border-radius: 30px;
+    width: 300px; 
+    margin: 30px auto;
+    padding: 10px;
+}
+
+img{
+    width: 200px;
+    border-radius: 200px;
+
+}
+
+p{ margin: 20px;}
+
+li{
+    background-color: skyblue;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    list-style-type: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
