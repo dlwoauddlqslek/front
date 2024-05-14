@@ -195,7 +195,7 @@ justify-content: space-between;
 #mainbot{width: 1280px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-evenly;}
 #MAINB1{width: 243px; height: 330px;
 margin-top: 1px;
 margin-bottom: 1px;
@@ -207,11 +207,12 @@ text-align: center;
     display: flex;
     justify-content: space-around;  
     align-items: center;
+    margin-bottom: 8px;
 }
 #muhu{
     padding: 40px 34px; margin: 1px;
     border: 1px solid gray;
-    margin-bottom: 50px;}
+    margin-bottom: 10px;}
 #span{ color: blue; font-weight: bold;}
     
 #INFO>p{font-size: 20PX;
@@ -223,45 +224,112 @@ width: px;}
 #MAINB2{display: flex;
 width: 320px; height: 334px;
 font-size: 12px;
-display: flex;
 justify-content: center;
 }
 #새소식{display: flex;
 flex-direction: column;
-border: 1px solid black;}
+border: 1px solid rgb(180, 180, 180);}
 #MAINB3{display: flex;
     width: 320px; height: 327px;
-    border: 1px solid black;}
+    border: 1px solid rgb(180, 180, 180);
+    justify-content: center;}
 #MAINB4{display: flex;
     flex-wrap: wrap;
     width: 320px; height: 314px;
-    border: 1px solid black;
+    border: 1px solid rgb(180, 180, 180);
+    justify-content: center;
 }
 
 #새소식{padding: 10px;}
 
 #새소식 >.new{
+    width: 257px;
+    height: 319px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
+    font-size: 18px;
+    font-weight: bold;
 }
 #새소식 >ul>li{
-    margin: 15px;
+    margin: 10px;
     line-height: 150%;
 }
-#icon{display: flex;
+
+#팝업존{padding: 10px;}
+
+#팝업존 > .pop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    font-size: 18px;
+    font-weight: bold;}
+
+#팝업존 > ul > li{height: 150px;}
+
+#barolink{display: flex;
 flex-wrap: wrap;
 padding: 1px;
 margin: 20px;}
+
+#metaphoto{margin-bottom: 1px;}
+
 #icon>img{
     margin-top: 15px;
 }
-/* #MAINB4>a, #MAINB4>img{
-    width: 190px; 
-    height: 30px;
-} */
+
+#metamu{font-size: 13px ;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#barolink > .barolink{ display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 1px 10px 0px 1px;
+    font-size: 13px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
 .parking{width: 273px;}
 .meta{width: 318px;}
 .youtube{width:70px;}
-.insta{width:70px;}
-.kakao{width:70px;}
+.insta{width:60px;}
+.kakao{width:40px;}
+
+#map> li{
+    width: 20px;
+    color: white;
+
+}
+
+.map1, .map2, .map3, .map4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px 10px 3px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid rgb(180, 180, 180);
+    width: 100px; height: 50px;
+    justify-content: center;
+}
+
+.map1{
+    background-image:url(banner.gif);
+}
+
+.map2{
+    background-image:url(banner2.gif);
+}
+
+.map3{
+    background-image:url(banner3.gif);
+}
+
+.map4{
+    background-image:url(banner4.gif);
+}
+
