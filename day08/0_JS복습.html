@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
+<body>
+
+  <!--
+
+    1. 데이터/자료 종류
+      1. 문자 : '', "", ``
+      2. 숫자 : 10, -10, 10.0
+      3. 논리 : true, false
+      4. 배열 : [ data, data, data~ ]
+
+    2. 출력 함수
+      1. console.log(data)
+      2. alert(data)
+      3. document.write(data)
+      4. document.마크업.innerHTML = 문자데이터
+      * document.querySelector('#id').innerHTML = data
+      * document.querySelector('.class').innerHTML = data
+
+    3. 입력 함수
+      1. confirm(data) 
+      2. prompt(data)
+      3. document.마크업.innerHTML
+      * document.querySelector('#id').innerHTML = data
+      * document.querySelector('.class').innerHTML = data
+
+    4. 변수와 상수
+      1. 선언하는 방법
+        변수 : let 변수명 = data
+        상수 : const 변수명 = data
+      2. 호출하는 방법
+        변수명, 상수명
+      3. 수정하는 방법
+        변수명 = newdata
+      4. 연산
+        변수A = 변수B + 변수C
+      
+    5. 배열 : 순서대로 번호가 붙은 데이터들이 연속적인 형태로 구성된 구조의 데이터
+      - 인덱스 : 0번 시작 ~ N-1 까지
+      1. 배열 선언
+        let 변수명 = [data,data,data]
+      2. 배열 호출
+        전체호출 : 변수명
+        특정인덱스 호출 : 변수명[index]
+      3. 배열 수정
+        전체수정 : 변수명 = newArray[]
+        특정인덱스 데이터 수정 : 변수명[index] = newdata
+      --- 배열과 관련된 라이브러리
+
+      1. push
+        변수명.push(data)
+      2. splice
+        변수명.splice(시작인덱스,삭제개수)
+        변수명.splice(시작인덱스,삭제개수,newdata)
+      3. indexOf
+       변수명.indexOf(searchdata)
+      4. length
+        변수명.length
+        
+
+  -->
+
+  <script>
+
+    // 예1 : 2개의 문자를 입력받아 변수(let)에 저장한 후 HTML 출력하시오.
+      // prompt('입력1 :'); : 1. 입력받는다
+      // let 입력1 =        : 2. 저장한다.
+      // document.write()   : 3. HTML 출력한다.
+    /*let 입력1 = prompt('입력1 :');
+    let 입력2 = prompt('입력2 :');
+    document.write(입력1);
+    document.write(<br/>);
+    document.write(입력2);
+    */
+
+    // 예2 : 국어, 영어, 수학 점수 입력 받아서 배열변수에 각 점수를 저장하여 HTML(li)형식으로 출력하시오.
+      // 1. 변수 3개를 이용해서 저장이 가능하지만 여러개 데이터를 좀더 편하게(순서대로) 묶은 형식인 배열 사용
+    let 국어 = prompt('국어')
+    let 영어 = prompt('영어')
+    let 수학 = prompt('수학')
+    let 점수배열변수 = [];
+    점수배열변수.push(국어);
+    점수배열변수.push(영어);
+    점수배열변수.push(수학);    
+    console.log(점수배열변수);
+    document.write('<ol>')
+      document.write('<li>'); document.write(국어); document.write('</li>');
+      document.write('<li>'+영어+'</li>')
+      document.write(`<li>${수학}</li>`)
+    document.write('</ol>')
+ 
+    
+    
+    
+
+  </script>
+  
+</body>
+</html>
