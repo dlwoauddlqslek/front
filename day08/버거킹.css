@@ -14,5 +14,24 @@ a{text-decoration: none; color: black;}
 .subtitle{display: flex;}
 .subtitle > ul{display: flex;justify-content: flex-end; align-items: center;}
 .subtitle li{padding: 0px 14px; font-size: 16px; color: #b8b8b8; font-weight: bold;}
-.subtitle li:hover{color: black;}
 
+
+.subtitle li:hover{color: black;}
+.event{display: flex;justify-content: space-between; align-items: center;margin-top: 26px;
+margin-bottom: 40px;}
+.left{width: 572px; text-align: center;padding: 23px 0px; font-size: 24px; font-weight: bold;
+      border-top: 2px solid black; border-left: 2px solid black; border-right: 2px solid black;}
+.right{width: 572px; text-align: center;padding: 23px 0px; font-size: 24px; font-weight: bold;
+        border-bottom: 2px solid black; background-color: #f2f2f2; color: #c0c0c0;}
+.eventbox{display: flex; justify-content: space-between; flex-wrap: wrap; 
+  
+
+}
+.eventbox li{margin-bottom: 50px; }
+.eventbox img{
+  width: 547px; height: 229.58px;
+}
+.eventbox div{
+  font-size: 26px; margin-top: 15px; font-weight: bold;
+}
+.on{width: 48px; height: 35px;}
