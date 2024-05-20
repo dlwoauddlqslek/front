@@ -34,4 +34,4 @@ margin-bottom: 40px;}
 .eventbox div{
   font-size: 26px; margin-top: 15px; font-weight: bold;
 }
-.on{width: 48px; height: 35px;}
+.on{width: 48px; height: 35px; border-bottom: 2px solid red;color: red;}
