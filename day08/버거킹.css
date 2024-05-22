@@ -34,4 +34,23 @@ margin-bottom: 40px;}
 .eventbox div{
   font-size: 26px; margin-top: 15px; font-weight: bold;
 }
-.on{width: 48px; height: 35px; border-bottom: 2px solid red;color: red;}
+.on{width: 48px; height: 35px; border-bottom: 3px solid  red; align-items: center; position: relative;}
+.on > span{position: absolute; top: 21%; color: red;}
+.b_btn {display: flex; justify-content: center;}
+.c_btn {
+  background-color: #512314; width: 256px; height: 68px; display: flex; justify-content: center;
+  align-items: center; border-radius: 10px;
+}
+.c_btn >span{
+  color: white; font-size: 24px; font-weight: bold;
+}
+#fix{
+  display: flex;justify-content: center; position: fixed; background-color: black;
+    right: 307px;
+    bottom: 316px;
+    width: 52px;
+    height: 52px;
+    align-items: center;
+    opacity: 65%;
+}
+#fix span{color: white; font-size: 20px;}
