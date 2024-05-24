@@ -1,4 +1,4 @@
-*{margin: 0px; padding: 0px; box-sizing: border-box; }
+*{margin: 0px; padding: 0px; box-sizing: border-box; font-family: SDGothic, HGG, Malgun Gothic, "\B9D1\C740 \ACE0\B515", dotum, "\B3CB\C6C0", sans-serif;}
 li{list-style-type: none;}
 a{text-decoration: none; color: black;}
 
@@ -34,8 +34,8 @@ margin-bottom: 40px;}
 .eventbox div{
   font-size: 26px; margin-top: 15px; font-weight: bold;
 }
-.on{width: 48px; height: 35px; border-bottom: 3px solid  red; align-items: center; position: relative;}
-.on > span{position: absolute; top: 21%; color: red;}
+.on{width: 48px; height: 35px; border-bottom: 3px solid  #e22219; align-items: center; position: relative;}
+.on > span{position: absolute; top: 21%; color: #e22219;}
 .b_btn {display: flex; justify-content: center;}
 .c_btn {
   background-color: #512314; width: 256px; height: 68px; display: flex; justify-content: center;

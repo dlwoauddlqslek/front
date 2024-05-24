@@ -11,19 +11,20 @@
     body {width: 400px; margin: 0 auto; justify-content: center; text-align: center;}
   
 
-    
+    /*ul > li{display: flex; justify-content: space-between; padding: 20px 10px;}*/
     ul > li{display: flex; justify-content: space-between; 
-              padding: 20px 10px;
+              padding: 10px 15px; margin: 30px 0;
     }
-    li button{margin-left: 5px;}
+    li button{margin-left: 5px; margin-top: 15px ;}
     ul{padding-left: 0px;}
     input{width: 320px; height: 60px; font-size: 30px;}
     #addbox button{width: 72px; height: 66px; 
-     font-size: 20px; border: 1px solid black; border-left: 0px;
+     font-size: 20px;  
   }
 
     #addbox{display: flex; justify-content: space-between;
             margin-bottom: 40px; border-radius: 10px;}
+    li div{align-items: center;}
 
   </style>
   
@@ -34,15 +35,8 @@
   <div id="addbox">
     <input id="item" type="text"><button onclick="uploadItem()"  type="button">등록</button>
   </div>
-  <ul id="list" >
-    <li>
-      <div>1교시수업듣기</div>
-      <div>
-        <button  type="button">변경</button><button type="button">삭제</button>
-      </div>
-    </li>
-    
+  <ul id="list">
   </ul>
-  <script src='3_실습.js'></script>
+  <script src='3_실습 (1).js'></script>
 </body>
 </html>

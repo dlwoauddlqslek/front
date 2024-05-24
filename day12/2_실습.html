@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src='2_실습.js'></script>
+  <style>
+    table{border: 1px solid black;}
+    table th{border: 1px solid black;}
+    table td{border: 1px solid black;}
+  </style>
+</head>
+<body>
+
+  <h3>등록</h3>
+  날짜: <input type="date" id="date"/> <br/>
+  항목명: <input type="text" id="name"/> <br/>
+  금액: <input type="text" id="money"/> <br/>
+  <button onclick="add()" type="button">등록</button>
+
+  <h3>출력</h3>
+  <table id="moneytable">
+
+  </table>
+
+</body>
+</html>
