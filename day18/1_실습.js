@@ -29,7 +29,7 @@ function 제품등록(){
   alert('제품등록 성공');
 
   //===================localStorage 저장
-  데이터최신화(1); console.log(JSON.parse(localStorage.getItem('productlist')));
+  데이터최신화(1); console.log(제품목록);
   제품출력();
 }
 
